@@ -1,0 +1,14 @@
+livekit-agents
+livekit-plugins-openai
+livekit-plugins-silero
+livekit-plugins-google
+livekit-plugins-inworld
+livekit-plugins-deepgram
+livekit-plugins-noise-cancellation
+mem0ai
+duckduckgo-search
+langchain_community
+requests
+python-dotenv
+pydantic-ai-slim[openai,MCP]
+livekit-plugins-cartesia
