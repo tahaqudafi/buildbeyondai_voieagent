@@ -4,6 +4,7 @@ livekit-plugins-silero
 livekit-plugins-google
 livekit-plugins-inworld
 livekit-plugins-deepgram
+livekit-plugins-azure
 livekit-plugins-noise-cancellation
 mem0ai
 duckduckgo-search
@@ -12,3 +13,5 @@ requests
 python-dotenv
 pydantic-ai-slim[openai,MCP]
 livekit-plugins-cartesia
+tzdata
+aiohttp
