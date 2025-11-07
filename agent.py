@@ -162,11 +162,8 @@ async def entrypoint(ctx: agents.JobContext):
     )
     
     # Send initial greeting and start conversation loop
-    await session.say("Hello, this is Alex from impress dental, how can I help you?")
+    await session.say("Hello, this is Alex from impress dental, how can I help you?.")
     
-    # Generate initial reply to start the conversation loop
-    await session.generate_reply(instructions="You are now ready to help the customer. Wait for their response and assist them professionally.")
-
 
 if __name__ == "__main__":
     agents.cli.run_app(agents.WorkerOptions(entrypoint_fnc=entrypoint))
